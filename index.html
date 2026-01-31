@@ -30,8 +30,8 @@ button{padding:15px 30px;font-size:18px;border-radius:999px;border:none;cursor:p
 </head>
 <body>
 
-<img src="/D.jpeg" class="photo p1"><img src="/C.jpg" class="photo p2">
-<img src="/B.jpeg" class="photo p3"><img src="/A.jpeg" class="photo p4">
+<img src="D.jpeg" class="photo p1"><img src="C.jpg" class="photo p2">
+<img src="B.jpeg" class="photo p3"><img src="A.jpeg" class="photo p4">
 
 <div class="container">
 <h1 id="title">Hodo, will you be my Valentine? ❤️</h1>
@@ -43,7 +43,7 @@ button{padding:15px 30px;font-size:18px;border-radius:999px;border:none;cursor:p
 <div id="message" class="thankyou hidden"></div>
 </div>
 
-<audio id="music" src="/love.mp3"></audio>
+<audio id="music" src="love.mp3"></audio>
 
 <form id="valentineForm"><input type="hidden" name="message" value="She said YES ❤️"></form>
 <form id="refuseForm"><input type="hidden" name="message" value="She said NO ❌"></form>
@@ -88,7 +88,7 @@ function acceptLove(){
   document.getElementById('think').style.display='none';
   document.getElementById('title').innerText = "Hooray!!! 🎉💖";
   msg.classList.remove('hidden');
-  msg.innerHTML="She accepted 😍💞<br>Best weekend in <b>Rennes ❤️</b> incoming ✨"+
+  msg.innerHTML="You accepted 😍💞<br>Best weekend in <b>Rennes ❤️</b> incoming ✨"+
   "<div class='map'><iframe width='100%' height='160' style='border:0' loading='lazy' allowfullscreen src='https://www.google.com/maps?q=Rennes&output=embed'></iframe></div>";
   burstHearts();
   music.play();
